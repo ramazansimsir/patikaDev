@@ -1,6 +1,6 @@
 
 //  to get input  from user add Scanner class
-import java.awt.*;
+
 
 import java.util.Scanner;
 public class CalculateAverage {
@@ -8,7 +8,7 @@ public class CalculateAverage {
     public static void main(String[] args) {
 
         // create to variable for grades
-        int  math=0,physics=0,chemical=0,history=0,turkish=0,music=0;
+        int  math,physics,chemical,history,turkish,music;
         Scanner input =new Scanner(System.in);
 
         System.out.println("Please enter your math exam grade");
