@@ -15,6 +15,5 @@ public class BodyIndex {
         System.out.println("Body mass index is " +bodyIndex);
 
 
-
     }
 }
