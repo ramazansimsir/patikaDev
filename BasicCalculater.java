@@ -20,22 +20,12 @@ public class BasicCalculater {
         System.out.println("Press enter 4 for divide ");
         select=scan.nextInt();
 
-        switch (select){
-            case 1:
-
-                System.out.println("Result is "+ (number1+number2));
-                break;
-            case 2:
-                System.out.println("Result is "+(number1>number2 ? number1-number2 : number2-number1));
-                break;
-            case 3:
-                System.out.println("Result is "+ (number1*number2));
-                break;
-            case 4:
-                System.out.println("Result is "+(number1/number2) );
-                break;
-            default:
-                System.out.println("Invalid choice please try again ");
+        switch (select) {
+            case 1 -> System.out.println("Result is " + (number1 + number2));
+            case 2 -> System.out.println("Result is " + (number1 > number2 ? number1 - number2 : number2 - number1));
+            case 3 -> System.out.println("Result is " + (number1 * number2));
+            case 4 -> System.out.println("Result is " + (number1 / number2));
+            default -> System.out.println("Invalid choice please try again ");
         }
 
 
