@@ -11,9 +11,9 @@ public class HeatActivity {
 
         if (heat <=5 ) {
             System.out.println("you can go to skiing");
-        } else if ( heat > 5 && heat < 15) {
+        } else if (heat < 15) {
             System.out.println("you can go to the cinema");
-        } else if (heat >= 15 && heat < 25) {
+        } else if (heat < 25) {
             System.out.println("You can go to  picnic");
         } else {
             System.out.println("You can go to swimming");
